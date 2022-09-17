@@ -6,7 +6,7 @@ class produk(models.Model):
     idproduk = models.CharField(max_length=5, primary_key=True)
     jumlahstok = models.IntegerField()
     namaproduk = models.CharField(max_length=50)
-    satuanproduk = models.CharField(max_length=5)
+    satuanproduk = models.CharField(max_length=10)
     hargaproduk = models.IntegerField()
     kategoriproduk = models.CharField(max_length=50)
 
