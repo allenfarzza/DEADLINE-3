@@ -3,9 +3,9 @@ from django.db import models
 # Create your models here.
 
 class produk(models.Model):
-    idproduk = models.CharField(max_length=10, primary_key=True)
+    idproduk = models.CharField(max_length=10, primary_key=True) #maxlength 5 aja contoh:prd01
     jumlahstok = models.IntegerField()
-    namaproduk = models.CharField(max_length=100)
+    namaproduk = models.CharField(max_length=100) #50 aja cukup, smua model diganti ya
     satuanproduk = models.CharField(max_length=10)
     hargaproduk = models.IntegerField()
     kategoriproduk = models.CharField(max_length=100)
