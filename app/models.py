@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+#max length gausah banyak banya
+
 class produk(models.Model):
     idproduk = models.CharField(max_length=10, primary_key=True)
     jumlahstok = models.IntegerField()
